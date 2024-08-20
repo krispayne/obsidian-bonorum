@@ -26,7 +26,7 @@ const encodedLink = encodeURI(link); -%>
 
 >[!abstract|publissy-gold]+ Objectives
 >  
-> - What were the objectives for this module?
+> - What were the objectives for this <% courseBreakdown %>?
 
 [Open course in Things](<% encodedLink %>)
 # Assignments
