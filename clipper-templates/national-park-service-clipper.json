@@ -1,0 +1,44 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "National Park Service",
+	"behavior": "create",
+	"noteContentFormat": "{{schema:@Place:description}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{schema:@Place:name}}",
+			"type": "text"
+		},
+		{
+			"name": "gps_coordinates",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "visited_status",
+			"value": "",
+			"type": "checkbox"
+		},
+		{
+			"name": "date_visited",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "date_created",
+			"value": "{{date}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"https://www.nps.gov",
+		"https://nps.gov"
+	],
+	"noteNameFormat": "{{schema:@Place:name|safe_name}}",
+	"path": "Clippings"
+}

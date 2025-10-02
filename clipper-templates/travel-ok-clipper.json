@@ -1,0 +1,44 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Travel OK",
+	"behavior": "create",
+	"noteContentFormat": "{{selectorHtml:div.readmore__description|markdown}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "gps_coordinates",
+			"value": "{{meta:name:geo.position}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "visited_status",
+			"value": "",
+			"type": "checkbox"
+		},
+		{
+			"name": "date_visited",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "date_created",
+			"value": "{{date}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"https://www.travelok.com",
+		"https://travelok.com"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "Clippings"
+}

@@ -1,0 +1,73 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Letterboxd",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "categories",
+			"value": "[[Movies]]",
+			"type": "multitext"
+		},
+		{
+			"name": "genres",
+			"value": "{{schema:genre|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "directors",
+			"value": "{{schema:director[*].name|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "score",
+			"value": "{{schema:aggregateRating.ratingValue}}",
+			"type": "text"
+		},
+		{
+			"name": "cast",
+			"value": "{{schema:actors[*].name|slice:0,5|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "cover",
+			"value": "{{schema:image}}",
+			"type": "text"
+		},
+		{
+			"name": "plot",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "date_created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "last",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "year",
+			"value": "{{schema:releasedEvent[*].startDate|date:\\\"YYYY\\\"}}",
+			"type": "number"
+		},
+		{
+			"name": "tags",
+			"value": "movies, review, to-watch",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"https://letterboxd.com/film/"
+	],
+	"noteNameFormat": "{{schema:name}}",
+	"path": "20-29 Collections/22 Movies/22.03 Movies"
+}
