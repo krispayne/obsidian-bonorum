@@ -1,0 +1,30 @@
+@media print {
+
+    :root {
+        --body-font-family: "Neue Haas Unica W1G", sans-serif;
+        --heading-font-family: "Neue Haas Unica W1G", sans-serif;
+    }
+
+    .print body {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: none;
+    }
+
+    .print p {
+        line-height: 1.4;
+        word-spacing: 1.1pt;
+        letter-spacing: 0.2pt;
+        font-family: var(--body-font-family);
+        font-size: 12pt;
+        margin-bottom: 1rem !important;
+        
+    }
+
+    .print h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font-family);
+        font-weight: 900 !important;
+    }
+
+}

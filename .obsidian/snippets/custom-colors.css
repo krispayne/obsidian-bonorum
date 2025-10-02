@@ -1,0 +1,125 @@
+/* Colors */
+/* Zotero Yellow */
+.color .callout[data-callout-metadata*="#ffd400"] {
+  --callout-color: 255, 212, 0;
+}
+/* Zotero Red */
+.color .callout[data-callout-metadata="#ff6666"] {
+  --callout-color: 255, 59, 48;
+}
+/* Zotero Green */
+.color .callout[data-callout-metadata="#5fb236"] {
+  --callout-color: 40, 205, 65;
+}
+/* Zotero Blue */
+.color .callout[data-callout-metadata="#2ea8e5"] {
+  --callout-color: 0, 122, 255;
+}
+/* Zotero Purple */
+.color .callout[data-callout-metadata="#a28ae5"] {
+  --callout-color: 125, 84, 222;
+}
+/* Zotero Orange */
+.color .callout[data-callout-metadata*="#f19837"] {
+  --callout-color: 241, 152, 55;
+}
+
+/* CMY(K) */
+/* Cyan */
+.color .callout[data-callout-metadata="cyan"] {
+  --callout-color: 0, 255, 255;
+}
+/* Magenta */
+.color .callout[data-callout-metadata="magenta"] {
+  --callout-color: 255, 0, 255;
+}
+/* Yellow */
+.color .callout[data-callout-metadata="yellow"] {
+  --callout-color: 255, 255, 0;
+}
+
+/* RGB */
+/* Red */
+.color .callout[data-callout-metadata="red"] {
+  /* to change text color. it must be a hex string. color: #ff000000*/
+  --callout-color: 255, 0, 0;
+}
+/* Green */
+.color .callout[data-callout-metadata="green"] {
+  --callout-color: 0, 255, 0;
+}
+/* Blue */
+.color .callout[data-callout-metadata="blue"] {
+  --callout-color: 0, 0, 255;
+}
+
+/* Seafoam */
+.color .callout[data-callout-metadata="seafoam"] {
+  --callout-color: 0, 255, 255;
+}
+
+/* SPRINCLOUS */
+/* blue */
+.color .callout[data-callout-metadata="sprinclous-blue"] {
+  --callout-color: 93,138,166;
+}
+/* lime */
+.color .callout[data-callout-metadata="sprinclous-lime"] {
+  --callout-color: 192,242,12;
+}
+/* unripe banana */
+.color .callout[data-callout-metadata="sprinclous-banana"] {
+  --callout-color: 192,217,7;
+}
+/* avocado */
+.color .callout[data-callout-metadata="sprinclous-avocado"] {
+  --callout-color: 161,166,18;
+}
+/* olive drab */
+.color .callout[data-callout-metadata="sprinclous-olive"] {
+  --callout-color: 115,109,22;
+}
+
+/* PUBLISSY */
+/* yellow */
+.color .callout[data-callout-metadata="publissy-yellow"] {
+  --callout-color: 248,225,148;
+}
+/* aquamarine */
+.color .callout[data-callout-metadata="publissy-aqua"] {
+  --callout-color: 37,115,107;
+}
+/* mint */
+.color .callout[data-callout-metadata="publissy-mint"] {
+  --callout-color: 122,214,151;
+}
+/* tan */
+.color .callout[data-callout-metadata="publissy-tan"] {
+  --callout-color: 121,104,70;
+}
+/* gold */
+.color .callout[data-callout-metadata="publissy-gold"] {
+  --callout-color: 246,203,94;
+}
+
+/* SNOWBLOOD3 */
+/* desaturated pink */
+.color .callout[data-callout-metadata="snowblood3-pink"] {
+  --callout-color: 208,137,155;
+}
+/* dark blue */
+.color .callout[data-callout-metadata="snowblood3-darkblue"] {
+  --callout-color: 20,51,115;
+}
+/* light desaturated blue */
+.color .callout[data-callout-metadata="snowblood3-lightblue"] {
+  --callout-color: 141,173,216;
+}
+/* dark desaturated blood */
+.color .callout[data-callout-metadata="snowblood3-blood"] {
+  --callout-color: 86,40,37;
+}
+/* grey */
+.color .callout[data-callout-metadata="snowblood3-grey"] {
+  --callout-color: 102,106,127;
+}

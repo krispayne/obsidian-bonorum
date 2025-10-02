@@ -1,0 +1,63 @@
+@media print {
+
+    :root {
+        --body-font-family: "Neue Haas Unica W1G", sans-serif;
+        --heading-font-family: "Neue Haas Unica W1G", sans-serif;
+    }
+
+    .curriculum-vitae body, p {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: none;
+    }
+
+    .curriculum-vitae body, p, td, li {
+        line-height: 1.4;
+        word-spacing: 1.1pt;
+        letter-spacing: 0.2pt;
+        font-family: var(--body-font-family);
+        font-size: 12pt;
+    }
+
+    .curriculum-vitae h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font-family);
+        font-weight: 900 !important;
+    }
+
+    .curriculum-vitae h1 {
+        font-size: 13pt !important;
+        margin-bottom: 0 !important;
+        text-transform: uppercase;
+    }
+
+    .curriculum-vitae h2 {
+        font-size: 13pt !important;
+        line-height: 1.1 !important;
+        margin-bottom: 0 !important;
+        margin-top: 1em !important;
+        text-transform: uppercase;
+    }
+
+    .curriculum-vitae table {
+        --table-border-width: 0;
+        --table-text-size: 1em;
+        margin-top: 0 !important;
+    }
+
+    .curriculum-vitae thead {
+        display: none;
+    }
+
+    .curriculum-vitae ul {
+        list-style-type: none;
+        padding-left: 0 !important;
+        padding-inline-start: 0;
+        --list-indent: none;
+    }
+
+    .curriculum-vitae li {
+        margin-bottom: .5em !important;
+    }
+
+}

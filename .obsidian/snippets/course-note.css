@@ -1,0 +1,15 @@
+/* Metadata Callout */
+.course-note .callout[data-callout="metadata"] {
+  --callout-icon: book-open-text;
+  --callout-color: 162, 138, 229;
+}
+/* Requirements Callout */
+.course-note .callout[data-callout="requirements"] {
+  --callout-icon: layout-list;
+  --callout-color: 0, 255, 255;
+}
+
+/* No icon for Pandoc Docx export */
+.course-note .callout[data-callout="pandoc"] .callout-icon {
+  display: none;
+}

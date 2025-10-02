@@ -1,0 +1,5 @@
+/* Citation  Callout */
+.literature-note .callout[data-callout="citation"] {
+  --callout-icon: text-quote;
+  --callout-color: 0, 255, 255;
+}
