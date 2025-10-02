@@ -33,11 +33,6 @@
 			"name": "description",
 			"value": "{{description}}",
 			"type": "text"
-		},
-		{
-			"name": "tags",
-			"value": "clippings",
-			"type": "multitext"
 		}
 	],
 	"triggers": [],

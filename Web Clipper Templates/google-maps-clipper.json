@@ -2,8 +2,6 @@
 	"schemaVersion": "0.1.0",
 	"name": "Google Maps",
 	"behavior": "create",
-	"noteNameFormat": "{{selector:div[role=\"main\"]:aria-label}}",
-	"path": "References",
 	"noteContentFormat": "",
 	"properties": [
 		{
@@ -22,12 +20,7 @@
 			"type": "text"
 		},
 		{
-			"name": "loc",
-			"value": "",
-			"type": "multitext"
-		},
-		{
-			"name": "location",
+			"name": "coordinates",
 			"value": "{{url|split:\\\"/@\\\"|slice:1|split:\\\",\\\"|slice:0,2}}",
 			"type": "multitext"
 		},
@@ -74,5 +67,7 @@
 	],
 	"triggers": [
 		"https://www.google.com/maps/place/"
-	]
+	],
+	"noteNameFormat": "{{selector:div[role=\"main\"]:aria-label}}",
+	"path": "References"
 }

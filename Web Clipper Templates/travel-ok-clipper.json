@@ -5,14 +5,19 @@
 	"noteContentFormat": "{{selectorHtml:div.readmore__description|markdown}}",
 	"properties": [
 		{
+			"name": "categories",
+			"value": "[[Places]]",
+			"type": "multitext"
+		},
+		{
 			"name": "title",
 			"value": "{{title}}",
 			"type": "text"
 		},
 		{
-			"name": "gps_coordinates",
-			"value": "{{meta:name:geo.position}}",
-			"type": "text"
+			"name": "coordinates",
+			"value": "{{meta:name:geo.position|slice:1|split:\\\",\\\"|slice:0,2}}",
+			"type": "multitext"
 		},
 		{
 			"name": "source",

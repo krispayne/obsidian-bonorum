@@ -5,6 +5,11 @@
 	"noteContentFormat": "{{selector:.BookPageMetadataSection__description .Formatted}}",
 	"properties": [
 		{
+			"name": "categories",
+			"value": "[[Books]]",
+			"type": "multitext"
+		},
+		{
 			"name": "title",
 			"value": "{{schema:name}}",
 			"type": "text"
@@ -68,11 +73,6 @@
 			"name": "status",
 			"value": "",
 			"type": "text"
-		},
-		{
-			"name": "categories",
-			"value": "[[Books]]",
-			"type": "multitext"
 		}
 	],
 	"triggers": [

@@ -5,14 +5,19 @@
 	"noteContentFormat": "{{schema:@Place:description}}",
 	"properties": [
 		{
+			"name": "categories",
+			"value": "[[Places]]",
+			"type": "multitext"
+		},
+		{
 			"name": "title",
 			"value": "{{schema:@Place:name}}",
 			"type": "text"
 		},
 		{
-			"name": "gps_coordinates",
+			"name": "coordinates",
 			"value": "",
-			"type": "text"
+			"type": "multitext"
 		},
 		{
 			"name": "source",
