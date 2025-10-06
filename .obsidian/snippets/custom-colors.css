@@ -23,6 +23,10 @@
 .color .callout[data-callout-metadata*="#f19837"] {
   --callout-color: 241, 152, 55;
 }
+/* Zotero Magenta */
+.color .callout[data-callout-metadata*="#e56eee"] {
+  --callout-color: 255, 0, 255;
+}
 
 /* CMY(K) */
 /* Cyan */
